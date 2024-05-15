@@ -2,7 +2,9 @@ Generador de Senhas com Tailwind CSS
 ----------------------------------------------------------------------------------------------------------------------------------------
 Este é um projeto simples para criar senhas aleatórias usando HTML, CSS com Tailwind CSS e JavaScript.
 Ele permite gerar senhas com diferentes comprimentos e complexidades.
-> ![image](https://private-user-images.githubusercontent.com/152664119/330643839-65a730bf-1732-4a8a-a79f-490e5e48310b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU3NDE1OTcsIm5iZiI6MTcxNTc0MTI5NywicGF0aCI6Ii8xNTI2NjQxMTkvMzMwNjQzODM5LTY1YTczMGJmLTE3MzItNGE4YS1hNzlmLTQ5MGU1ZTQ4MzEwYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUxNVQwMjQ4MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ODVlY2JmM2UxMTBlMzVkN2ViMjJkMjU4M2MwODkwNmZkM2IzMzAzYThhYzM0OWMzZTE3YzQ3NzRlOGY4NDRhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.qipMx1FPjQWS8R8tGCyTmQKk6Hsd5RFL_p3v1QKR-Sg)
+
+![image](https://github.com/IsmaelMoreira/Generator-password-with-tailwind/assets/152664119/51fc691e-707e-4169-b912-0f2ff169d92b)
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 Como Funciona:
 1. Abra o arquivo index.html em seu navegador da web.
