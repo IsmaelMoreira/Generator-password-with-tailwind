@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="password generator, generate password">
+    <title>Generator Password</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poetsen+One&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet">
+  </head>
+  
+  <style>
+    body {
+      font-family: 'Oswald', sans-serif;
+    }
+  </style>
+
+  <body class="bg-gray-900">
+    
+    <h1 class="text-4xl text-white max-w-lg mx-auto mt-10">
+      Generator Password
+    </h1>
+    
+    <main class="text-white container-input max-w-lg mx-auto mt-5">
+      <span class="block mb-2">Length: <span id="valor"
+          class="font-semibold"></span> characters</span>
+      <input type="range" class="slider w-full" id="slider" min="5" max="25"
+        value="15">
+      <button onclick="generatePassword()" id="btn"
+        class="btn-cta mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Generate
+        Password</button>
+    </main>
+
+    <div id="container-password"
+      class="container-password-hide max-w-lg mx-auto mt-6 p-4 bg-white rounded shadow-md text-center"
+      onclick="copyPassword()">
+      <span class="block text-lg font-semibold mb-4">Your generated
+        password:</span>
+      <span id="password"
+        class="password text-xl font-semibold bg-gray-200 p-2 cursor-pointer"></span>
+      <span class="tooltip block mt-2 text-sm mt-4">Click on the password to
+        copy.</span>
+
+        <div id="loader" class="loader"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
